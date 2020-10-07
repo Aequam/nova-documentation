@@ -98,7 +98,7 @@ class MarkdownUtility
                     'title' => config('novadocumentation.title'),
                     'pageRoute' => $pathsToAdd[$i],
                     'file' => $target,
-                    'home' => is_int(strpos($files[$i], config('novadocumentation.home'))),
+                    'home' => is_int(strpos($files[$i], resource_path(config('novadocumentation.home')))),
 //                    'content' => $this->replaceLinks($content, $pathsToAdd[$i]),
                     'content' => $content,
                     'pageTitle' => $this->getPageTitle($target)
