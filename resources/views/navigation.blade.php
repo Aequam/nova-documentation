@@ -1,4 +1,4 @@
-<router-link tag="h3" :to="{name: 'documentation'}" class="cursor-pointer flex items-center font-normal dim text-white mb-6 text-base no-underline">
+<router-link tag="h3" :to="{name: 'documentation'}" class="cursor-pointer flex items-center font-normal dim text-90 mb-6 text-base no-underline">
     <svg class="sidebar-icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
          width="256.61px" height="256.61px" viewBox="0 0 256.61 256.61"
          xml:space="preserve">
